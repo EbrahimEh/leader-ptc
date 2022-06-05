@@ -1,0 +1,187 @@
+body {
+    background-color: #e3e1e1;
+    ;
+}
+
+.p2 img {
+    width: 51px;
+    height: 51px;
+    border-radius: 30px;
+}
+
+.part-1 {
+
+    background-color: rgb(139, 164, 243);
+
+}
+
+.p1,
+.p2 {
+    display: flex;
+    align-items: center;
+}
+
+.p2 ul {
+    list-style: none;
+
+}
+
+.p2 ul li {
+    float: left;
+    margin-left: 40px;
+    padding-right: 20px;
+}
+
+.p1 {
+    padding-left: 30px;
+}
+
+.p2 img {
+    padding-right: 30px;
+}
+
+.part {
+    justify-content: space-between;
+    width: 930px;
+    display: flex;
+    align-items: center;
+
+}
+
+/* step */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 870px;
+    padding: 30px;
+    margin-top: 12px;
+}
+
+.section-title {
+    color: rgb(163, 119, 169);
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
+.player-name {
+    margin-left: 16px;
+    color: rgb(215, 20, 186);
+}
+
+hr {
+    border: 1px dotted rgb(164, 101, 101);
+    margin-bottom: 28px;
+}
+
+/* 2nd */
+.top-blogs {}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog .thumble img {
+    width: 224px;
+    height: 127px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.blog-athor a {
+    font-size: 16px;
+    color: #562EFF;
+
+}
+
+.blog-athor a {
+    text-decoration: none;
+}
+
+/* 3rd */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-regular.fa-star {
+    color: red;
+}
+
+.empty {
+    color: #562EFF;
+}
+
+.course .course-benar img {
+    width: 224px;
+    height: 104px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star .empty {
+    color: #961212;
+}
+
+/* end */
+@media only screen and (max-width:688px) {
+
+    .container,
+    .part {
+        width: 100%;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .blog {
+        flex-direction: column;
+    }
+}
+
+
+/* tablet devise */
