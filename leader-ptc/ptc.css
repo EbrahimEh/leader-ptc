@@ -32,6 +32,10 @@ body {
     padding-right: 20px;
 }
 
+.p1 .id {
+    padding-left: 20px;
+}
+
 .p1 {
     padding-left: 30px;
 }
@@ -134,6 +138,15 @@ hr {
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+
+}
+
+.course,
+.blog {
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px 5px rgb(86, 72, 72);
 }
 
 .course-info {
@@ -174,7 +187,21 @@ hr {
     .players,
     .blogs,
     .courses {
+        align-items: center;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .course {
+        margin-bottom: 50px;
+    }
+
+    .blog {
+        width: 230px;
+    }
+
+    .p2 ul li {
+        margin-left: 2px;
+        padding-right: 2px;
     }
 
     .player,
